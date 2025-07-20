@@ -1,0 +1,18 @@
+# Release Notes Section Configuration
+# You can adjust section headers, order, and add comments for explanation.
+# Supported keys: section, header, type
+
+sections:
+  - section: features
+    header: "🚀 Features"
+    type: pr
+    comment: "Merged pull requests since last release"
+  - section: fixes
+    header: "🐛 Fixes"
+    type: issue
+    comment: "Closed issues since last release"
+  - section: commits
+    header: "📦 Commits"
+    type: commit
+    comment: "Commits since last release"
+# Add more sections as needed
